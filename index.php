@@ -1,6 +1,12 @@
 <?php
 $name = "Štěpán Kolarovský"
 ?>
+<?php $gender = "Muž"?>
+<?php $skola = "Základní škola Velký Osek" ?>
+<?php $narozeni = "6.3.2004" ?>
+<?php $email = "stepan.kolarovsky@student.ossp.cz" ?>
+<?php $number = "+420 723 610 817" ?>
+<?php $konicky = "florbal, práce s počítači" ?>
 
 <!DOCTYPE html>
 <html lang="cs">
@@ -12,18 +18,17 @@ $name = "Štěpán Kolarovský"
 <body>
  <h1><?php echo $name; ?></h1>
  <li>Pohlaví: </li>
-   Muž <br />
+   <?php echo $gender; ?>
  <li>Základní škola</li>
-  Základní škola Velký Osek <br />
+   <?php echo $skola; ?>
  <li>Datum narození</li>
-  6.3.2004 <br />
+  <?php echo $narozeni; ?>
   
   <li>E-mail</li> 
-   stepan.kolarovsky@student.ossp.cz <br />
+    <?php echo $email; ?>stepan.kolarovsky@student.ossp.cz <br />
   <li>Telefon</li> 
-   +420 723 610 817<br />
+   <?php echo $number; ?>
   <li>Koníčky</li>
-   Floorball <br />
-   Práce na počítači <br />
+    <?php echo $konicky; ?>
 </body>
 </html>
