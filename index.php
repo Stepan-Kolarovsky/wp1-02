@@ -16,20 +16,19 @@ $hobbies = "florbal, práce s počítači"
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
- <h1><?php echo $name; ?></h1>
- <li>Pohlaví: </li>
-   <?php echo $gender; ?>
- <li>Základní škola</li>
-   <?php echo $school; ?>
- <li>Datum narození</li>
-  <?php echo $birthdate; ?>
-  
-  <li>E-mail</li> 
+ <body>
+  <h1><?php echo $name; ?></h1>
+   <li>Pohlaví: </li>
+    <?php echo $gender; ?>
+   <li>Základní škola</li>
+    <?php echo $school; ?>
+   <li>Datum narození</li>
+     <?php echo $birthdate; ?>
+   <li>E-mail</li> 
     <?php echo $email; ?>stepan.kolarovsky@student.ossp.cz <br />
-  <li>Telefon</li> 
-   <?php echo $phone; ?>
-  <li>Koníčky</li>
+   <li>Telefon</li> 
+    <?php echo $phone; ?>
+   <li>Koníčky</li>
     <?php echo $hobbies; ?>
 </body>
 </html>
