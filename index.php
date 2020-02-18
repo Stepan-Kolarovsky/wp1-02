@@ -1,7 +1,8 @@
 <?php
 //název proměné, operátor přiřazení, hodnota kterou ukládáme do proměné
 /*
-$name = "Štěpán Kolarovský" ;
+$first_name = "Štěpán" ;
+$last_name = "Kolarovský" ;
 $gender = "Muž";
 $school = "Základní škola Velký Osek";
 $birthdate = "6.3.2004";
@@ -9,7 +10,8 @@ $email = "stepan.kolarovsky@student.ossp.cz";
 $phone = "+420 723 610 817";
 $hobbies = "florbal, práce s počítači" 
 */
-$name = "Jakub Vávrů" ;
+$first_name = "Jakub" ;
+$last_name = " Vávrů" ;
 $gender = "Muž";
 $school = "Základní škola Zásmuky";
 $birthdate = "6.1.2004";
@@ -26,18 +28,18 @@ $hobbies = "práce s počítači, příroda, tůrovaní, kreslení"
     <title>Document</title>
 </head>
  <body>
-  <h1><?php echo $name; ?></h1>
+  <h1><?= $first_name; ?><?= $last_name; ?></h1>
    <li>Pohlaví: </li>
-    <?php echo $gender; ?>
+    <?= $gender; ?>
    <li>Základní škola</li>
-    <?php echo $school; ?>
+    <?= $school; ?>
    <li>Datum narození</li>
-     <?php echo $birthdate; ?>
+     <?= $birthdate; ?>
    <li>E-mail</li> 
-    <?php echo $email; ?>
+    <?= $email; ?>
    <li>Telefon</li> 
-    <?php echo $phone; ?>
+    <?= $phone; ?>
    <li>Koníčky</li>
-    <?php echo $hobbies; ?>
+    <?= $hobbies; ?>
 </body>
 </html>
