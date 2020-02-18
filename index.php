@@ -2,11 +2,11 @@
 //název proměné, operátor přiřazení, hodnota kterou ukládáme do proměné
 $name = "Štěpán Kolarovský" ;
 $gender = "Muž";
-$skola = "Základní škola Velký Osek";
-$narozeni = "6.3.2004";
+$school = "Základní škola Velký Osek";
+$birthdate = "6.3.2004";
 $email = "stepan.kolarovsky@student.ossp.cz";
-$number = "+420 723 610 817";
-$konicky = "florbal, práce s počítači" 
+$phone = "+420 723 610 817";
+$hobbies = "florbal, práce s počítači" 
 ?>
 
 <!DOCTYPE html>
@@ -21,15 +21,15 @@ $konicky = "florbal, práce s počítači"
  <li>Pohlaví: </li>
    <?php echo $gender; ?>
  <li>Základní škola</li>
-   <?php echo $skola; ?>
+   <?php echo $school; ?>
  <li>Datum narození</li>
-  <?php echo $narozeni; ?>
+  <?php echo $birthdate; ?>
   
   <li>E-mail</li> 
     <?php echo $email; ?>stepan.kolarovsky@student.ossp.cz <br />
   <li>Telefon</li> 
-   <?php echo $number; ?>
+   <?php echo $phone; ?>
   <li>Koníčky</li>
-    <?php echo $konicky; ?>
+    <?php echo $hobbies; ?>
 </body>
 </html>
