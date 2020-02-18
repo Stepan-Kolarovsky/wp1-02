@@ -1,5 +1,6 @@
 <?php
 //název proměné, operátor přiřazení, hodnota kterou ukládáme do proměné
+/*
 $name = "Štěpán Kolarovský" ;
 $gender = "Muž";
 $school = "Základní škola Velký Osek";
@@ -7,6 +8,14 @@ $birthdate = "6.3.2004";
 $email = "stepan.kolarovsky@student.ossp.cz";
 $phone = "+420 723 610 817";
 $hobbies = "florbal, práce s počítači" 
+*/
+$name = "Jakub Vávrů" ;
+$gender = "Muž";
+$school = "Základní škola Zásmuky";
+$birthdate = "6.1.2004";
+$email = "jakub.vavru@student.ossp.cz";
+$phone = "+420 776 542 345";
+$hobbies = "práce s počítači, příroda, tůrovaní, kreslení" 
 ?>
 
 <!DOCTYPE html>
