@@ -1,12 +1,13 @@
 <?php
-$name = "Štěpán Kolarovský"
+//název proměné, operátor přiřazení, hodnota kterou ukládáme do proměné
+$name = "Štěpán Kolarovský" ;
+$gender = "Muž";
+$skola = "Základní škola Velký Osek";
+$narozeni = "6.3.2004";
+$email = "stepan.kolarovsky@student.ossp.cz";
+$number = "+420 723 610 817";
+$konicky = "florbal, práce s počítači" 
 ?>
-<?php $gender = "Muž"?>
-<?php $skola = "Základní škola Velký Osek" ?>
-<?php $narozeni = "6.3.2004" ?>
-<?php $email = "stepan.kolarovsky@student.ossp.cz" ?>
-<?php $number = "+420 723 610 817" ?>
-<?php $konicky = "florbal, práce s počítači" ?>
 
 <!DOCTYPE html>
 <html lang="cs">
