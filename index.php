@@ -25,7 +25,7 @@ $hobbies = "florbal, práce s počítači"
    <li>Datum narození</li>
      <?php echo $birthdate; ?>
    <li>E-mail</li> 
-    <?php echo $email; ?>stepan.kolarovsky@student.ossp.cz <br />
+    <?php echo $email; ?>
    <li>Telefon</li> 
     <?php echo $phone; ?>
    <li>Koníčky</li>
