@@ -30,18 +30,12 @@ $hobbies = "práce s počítači, příroda, tůrovaní, kreslení"
  <body>
   <h1><?= $first_name; ?><?= $last_name; ?></h1>
   <ul>
-   <li>Pohlaví: </li>
-    <?= $gender; ?>
-   <li>Základní škola: </li>
-    <?= $school; ?>
-   <li>Datum narození: </li>
-     <?= $birthdate; ?>
-   <li>E-mail: </li> 
-    <?= $email; ?>
-   <li>Telefon: </li> 
-    <?= $phone; ?>
-   <li>Koníčky: </li>
-    <?= $hobbies; ?>
+   <li>Pohlaví: <?= $gender; ?> </li>
+   <li>Základní škola: <?= $school; ?></li>
+   <li>Datum narození: <?= $birthdate; ?></li>
+   <li>E-mail: <?= $email; ?></li> 
+   <li>Telefon: <?= $phone; ?></li> 
+   <li>Koníčky: <?= $hobbies; ?></li>
   </ul>
 </body>
 </html>
